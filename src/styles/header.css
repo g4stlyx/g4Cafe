@@ -1,0 +1,20 @@
+.header-main{
+    background-color: #FF2200 !important;
+    margin-left:20px;
+}
+
+.header-brand{
+    color:white !important;
+    font-size:22px !important;
+}
+
+@media (max-width:767px){
+    .header-main{
+        display:flex !important;
+        text-align: center !important;
+        justify-content: center !important;
+    }
+    .header-brand{
+        font-size:25px !important;
+    }
+}

@@ -1,0 +1,292 @@
+{
+  "products": [
+    {
+      "category_name": "Hot Drinks",
+      "category_image": "https://images-pardonapp.s3.eu-central-1.amazonaws.com/categories/005cd36b-bf5a-40c9-afa6-fce386ae6843.webp",
+      "category_products": [
+        {
+          "name": "Coffee",
+          "description": "A hot drink made from roasted coffee beans.",
+          "price": 2.50
+        },
+        {
+          "name": "Tea",
+          "description": "An aromatic beverage made from tea leaves.",
+          "price": 2.00
+        },
+        {
+          "name": "Hot Chocolate",
+          "description": "A sweet and creamy hot beverage made from chocolate.",
+          "price": 3.00
+        },
+        {
+          "name": "Cappuccino",
+          "description": "Espresso topped with foamed milk.",
+          "price": 3.50
+        },
+        {
+          "name": "Chai Latte",
+          "description": "A spiced tea-based latte with milk and honey.",
+          "price": 4.00
+        },
+        {
+          "name": "Espresso",
+          "description": "A concentrated shot of coffee with a bold flavor.",
+          "price": 2.00
+        }
+      ]
+    },
+    {
+      "category_name": "Cold Drinks",
+      "category_image": "https://images-pardonapp.s3.eu-central-1.amazonaws.com/categories/13753a5f-1163-476d-a9d1-e767f484821e.webp",
+      "category_products": [
+        {
+          "name": "Iced Coffee",
+          "description": "Chilled coffee served with ice and optional milk/sweeteners.",
+          "price": 3.50
+        },
+        {
+          "name": "Iced Tea",
+          "description": "Chilled tea served with ice and optional flavors.",
+          "price": 2.50
+        },
+        {
+          "name": "Lemonade",
+          "description": "A refreshing cold beverage made from lemons, water, and sweeteners.",
+          "price": 2.00
+        },
+        {
+          "name": "Fruit Punch",
+          "description": "A mix of various fruit juices with a hint of soda.",
+          "price": 3.00
+        },
+        {
+          "name": "Iced Mocha",
+          "description": "Chilled espresso with chocolate syrup and milk.",
+          "price": 4.00
+        },
+        {
+          "name": "Mango Lemonade",
+          "description": "Lemonade infused with fresh mango puree.",
+          "price": 3.50
+        }
+      ]
+    },
+    {
+      "category_name": "Smoothies",
+      "category_image": "https://images-pardonapp.s3.eu-central-1.amazonaws.com/categories/85fee8c2-197a-4ed6-a517-0ed578bf7bfd.webp",
+      "category_products": [
+        {
+          "name": "Berry Blast",
+          "description": "A fruity smoothie made with mixed berries and yogurt.",
+          "price": 4.50
+        },
+        {
+          "name": "Green Goddess",
+          "description": "A healthy smoothie with spinach, banana, and pineapple.",
+          "price": 4.00
+        },
+        {
+          "name": "Mango Tango",
+          "description": "A tropical smoothie featuring mango and orange juice.",
+          "price": 4.00
+        },
+        {
+          "name": "Pina Colada Smoothie",
+          "description": "A creamy blend of pineapple, coconut milk, and ice.",
+          "price": 5.00
+        },
+        {
+          "name": "Tropical Paradise",
+          "description": "A refreshing blend of papaya, guava, and passion fruit.",
+          "price": 5.00
+        },
+        {
+          "name": "Strawberry Banana Smoothie",
+          "description": "A classic combination of strawberries and bananas.",
+          "price": 4.50
+        }
+      ]
+    },
+    {
+      "category_name": "Sodas",
+      "category_image": "https://images-pardonapp.s3.eu-central-1.amazonaws.com/categories/1aff1284-5109-40ac-ae2a-7ed706d101c7.webp",
+      "category_products": [
+        {
+          "name": "Cola",
+          "description": "A classic cola soda with a fizzy and sweet taste.",
+          "price": 1.50
+        },
+        {
+          "name": "Lemon Lime",
+          "description": "A citrusy soda with a mix of lemon and lime flavors.",
+          "price": 1.50
+        },
+        {
+          "name": "Orange Soda",
+          "description": "A refreshing orange-flavored carbonated beverage.",
+          "price": 1.50
+        },
+        {
+          "name": "Ginger Ale",
+          "description": "A bubbly soda with a spicy ginger flavor.",
+          "price": 1.75
+        },
+        {
+          "name": "Root Beer",
+          "description": "A classic root beer with a smooth and creamy taste.",
+          "price": 1.75
+        },
+        {
+          "name": "Cream Soda",
+          "description": "A sweet and creamy soda with vanilla flavor.",
+          "price": 1.75
+        }
+      ]
+    },
+    {
+      "category_name": "Juices",
+      "category_image": "https://images-pardonapp.s3.eu-central-1.amazonaws.com/categories/667e60e6-dcb9-42c1-823f-cf0726c0a8e4.webp",
+      "category_products": [
+        {
+          "name": "Apple Juice",
+          "description": "A sweet and natural juice made from apples.",
+          "price": 2.50
+        },
+        {
+          "name": "Orange Juice",
+          "description": "A classic and refreshing juice made from oranges.",
+          "price": 2.50
+        },
+        {
+          "name": "Pineapple Juice",
+          "description": "A tropical juice with the delicious taste of pineapples.",
+          "price": 3.00
+        },
+        {
+          "name": "Cranberry Juice",
+          "description": "A tart and tangy juice made from cranberries.",
+          "price": 2.75
+        },
+        {
+          "name": "Grapefruit Juice",
+          "description": "A zesty and refreshing juice made from grapefruits.",
+          "price": 2.75
+        },
+        {
+          "name": "Watermelon Juice",
+          "description": "A refreshing juice made from ripe watermelon.",
+          "price": 3.00
+        }
+      ]
+    },
+    {
+      "category_name": "Milkshakes",
+      "category_image": "https://images-pardonapp.s3.eu-central-1.amazonaws.com/categories/ff264db4-5d35-46ad-b914-5828949d2d52.webp",
+      "category_products": [
+        {
+          "name": "Vanilla Milkshake",
+          "description": "A classic milkshake with a creamy vanilla flavor.",
+          "price": 4.00
+        },
+        {
+          "name": "Chocolate Milkshake",
+          "description": "A rich and indulgent milkshake made with chocolate.",
+          "price": 4.00
+        },
+        {
+          "name": "Strawberry Milkshake",
+          "description": "A delightful milkshake made with fresh strawberries.",
+          "price": 4.00
+        },
+        {
+          "name": "Cookies and Cream",
+          "description": "A delicious blend of cookies and cream with milk.",
+          "price": 4.50
+        },
+        {
+          "name": "Salted Caramel",
+          "description": "A sweet and savory milkshake with caramel and sea salt.",
+          "price": 5.00
+        },
+        {
+          "name": "Mint Chocolate Chip Shake",
+          "description": "A cool and refreshing shake with mint and chocolate chips.",
+          "price": 4.50
+        }
+      ]
+    },
+    {
+      "category_name": "Sandwiches",
+      "category_image": "https://images-pardonapp.s3.eu-central-1.amazonaws.com/categories/a1fdcfc0-f6e0-45d3-8a3a-c13fec6910e1.webp",
+      "category_products": [
+        {
+          "name": "BLT Sandwich",
+          "description": "A classic sandwich with bacon, lettuce, and tomato.",
+          "price": 5.50
+        },
+        {
+          "name": "Chicken Club Sandwich",
+          "description": "A hearty sandwich with grilled chicken, bacon, and veggies.",
+          "price": 6.00
+        },
+        {
+          "name": "Veggie Wrap",
+          "description": "A healthy wrap filled with fresh vegetables and hummus.",
+          "price": 5.00
+        },
+        {
+          "name": "Turkey Avocado",
+          "description": "A turkey sandwich with avocado and sprouts.",
+          "price": 6.50
+        },
+        {
+          "name": "Italian Panini",
+          "description": "A grilled panini with Italian meats and cheese.",
+          "price": 6.50
+        },
+        {
+          "name": "BBQ Pulled Pork Sandwich",
+          "description": "Slow-cooked pulled pork sandwiched in a BBQ sauce.",
+          "price": 6.50
+        }
+      ]
+    },
+    {
+      "category_name": "Desserts",
+      "category_image": "https://images-pardonapp.s3.eu-central-1.amazonaws.com/categories/b6c5cafd-801c-4abd-a7d4-2830a2c3e9d8.webp",
+      "category_products": [
+        {
+          "name": "Chocolate Brownie",
+          "description": "A decadent chocolate brownie topped with nuts.",
+          "price": 3.50
+        },
+        {
+          "name": "Cheesecake",
+          "description": "A creamy and rich cheesecake with a graham cracker crust.",
+          "price": 4.00
+        },
+        {
+          "name": "Fruit Tart",
+          "description": "A colorful fruit tart with a buttery pastry crust and custard filling.",
+          "price": 3.00
+        },
+        {
+          "name": "Tiramisu",
+          "description": "A classic Italian dessert with layers of coffee-soaked ladyfingers and mascarpone cheese.",
+          "price": 4.50
+        },
+        {
+          "name": "Molten Lava Cake",
+          "description": "A warm chocolate cake with a gooey, molten center.",
+          "price": 4.50
+        },
+        {
+          "name": "Key Lime Pie",
+          "description": "A tangy and creamy pie with a key lime flavor.",
+          "price": 3.50
+        }
+      ]
+    }
+  ]
+}
