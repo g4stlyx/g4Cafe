@@ -2,7 +2,7 @@
   "name": "g4cafe",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://g4stlyx.github.io/g4Cafe",
+  "homepage": "https://g4stlyx.github.io/g4Cafe/#",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
