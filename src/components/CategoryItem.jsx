@@ -15,7 +15,7 @@ function CategoryItem({category}) {
 
   return (
     <Col xs={5} sm={5} lg={3}>
-      <a onClick={handleCategoryClick} href={"/menu#"+category.category_name}>
+      <a onClick={handleCategoryClick} href={"https://g4stlyx.github.io/g4Cafe/menu#"+category.category_name}>
       <Card>
         <Card.Img variant="top" src={category.category_image} />
         <Card.Body className="category-item-body">

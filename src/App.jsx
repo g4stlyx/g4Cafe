@@ -1,6 +1,5 @@
 import { useContext, useEffect } from 'react'
-import { Route, Routes } from "react-router-dom";
-import './styles/App.css'
+import { Route, Routes, HashRouter, BrowserRouter } from "react-router-dom";
 
 import ProductsContext from './context/productsContext'
 
@@ -14,32 +13,31 @@ function App() {
 
   const {fetchCategories,categories} = useContext(ProductsContext)
 
-
   useEffect(()=>{
     fetchCategories()
   },[])
 
   return (
     <div className='App'>
-        <Header />
-        
-        <Routes>
-        <Route path="https://g4stlyx.github.io/g4Cafe/" exact element={<Dashboard />} />
-        <Route path="https://g4stlyx.github.io/g4Cafe/menu" element={<Menu />} />
+          <Header />
 
-        {
-            categories.map(category=>{
-                <Route
-                key={category.category_name}
-                path={"https://g4stlyx.github.io/g4Cafe/menu#"+category.category_name}
-                element={<Menu chosenCategoryByUser={category}/>}
-                />
-            })
-        }
-        
-        </Routes>
+            <Routes> 
+            <Route exact path="/g4Cafe" element={<Dashboard />} />
+            <Route path="/menu" element={<Menu />} />
 
-        <Footer />
+            {
+                categories.map(category=>{
+                    <Route
+                    key={category.category_name}
+                    path={"/menu#"+category.category_name}
+                    element={<Menu chosenCategoryByUser={category}/>}
+                    />
+                })
+            }
+
+            </Routes>
+            
+          <Footer />
     </div>
   )
 }
