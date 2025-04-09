@@ -22,7 +22,7 @@ function App() {
         <Route path="/#" exact element={<Dashboard />} />
         <Route path="/#/menu" element={<Menu />} />
 
-        {categories.map((category) => {
+        {/* {categories.map((category) => {
           return (
             <Route
               key={category.category_name}
@@ -30,7 +30,7 @@ function App() {
               element={<Menu chosenCategoryByUser={category} />}
             />
           );
-        })}
+        })} */}
       </Routes>
       <Footer />
     </div>
