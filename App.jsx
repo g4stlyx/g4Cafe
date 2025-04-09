@@ -19,14 +19,14 @@ function App() {
     <div className="App">
       <Header />
       <Routes>
-        <Route path="/" exact element={<Dashboard />} />
-        <Route path="/menu" element={<Menu />} />
+        <Route path="/#" exact element={<Dashboard />} />
+        <Route path="/#/menu" element={<Menu />} />
 
         {categories.map((category) => {
           return (
             <Route
               key={category.category_name}
-              path={"/menu/" + category.category_name}
+              path={"/#/menu/" + category.category_name}
               element={<Menu chosenCategoryByUser={category} />}
             />
           );
