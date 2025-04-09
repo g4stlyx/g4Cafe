@@ -21,14 +21,14 @@ function App() {
     <div className='App'>
           <Header />
           <Routes>
-          <Route path="https://g4stlyx.github.io/g4Cafe/" exact element={<Dashboard />} />
-          <Route path="https://g4stlyx.github.io/g4Cafe/menu" element={<Menu />} />
+          <Route path="https://g4stly.tr/g4Cafe/" exact element={<Dashboard />} />
+          <Route path="https://g4stly.tr/g4Cafe/menu" element={<Menu />} />
 
           {
               categories.map(category=>{
                   <Route
                   key={category.category_name}
-                  path={"https://g4stlyx.github.io/g4Cafe/menu#"+category.category_name}
+                  path={"https://g4stly.tr/g4Cafe/menu#"+category.category_name}
                   element={<Menu chosenCategoryByUser={category}/>}
                   />
               })
