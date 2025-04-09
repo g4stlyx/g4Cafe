@@ -1,4 +1,4 @@
-DEMO: https://g4stlyx.github.io/g4Cafe/ <br><br>
+DEMO: https://g4stly.tr/g4Cafe/ <br><br>
 
 A responsive cafe/qr menu website project with features like choosing category, getting different products for each category and so on. <br><br>
 
